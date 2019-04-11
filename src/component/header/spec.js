@@ -9,7 +9,7 @@ const setUp = (props={}) => {
     return component;
 };
 
-describe('Header Component', () => {
+describe.skip('Header Component', () => {
 
     let component;
 
@@ -20,7 +20,6 @@ describe('Header Component', () => {
     it('It should render without errors', () => {
 
         const wrapper = findByTestAtrr(component, 'headerComponent');
-        console.log(3)
         expect(wrapper.length).toBe(1)
 
     });
