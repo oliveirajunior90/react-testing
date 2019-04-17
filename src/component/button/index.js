@@ -12,7 +12,7 @@ class SharedButton extends Component {
     render() {
         
         const { buttonText } = this.props;
-        
+
         return (
         <button data-test="buttonComponent" onClick={() => this.submitEvent()}>
             {buttonText}
